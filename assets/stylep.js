@@ -1,1 +1,4 @@
-1
+const CREDENTIALS = {
+  username: "aden919",
+  password: "adencool"
+};
