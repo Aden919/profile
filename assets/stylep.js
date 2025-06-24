@@ -1,4 +1,1 @@
-const CREDENTIALS = {
-  username: "aden919",
-  password: "adencool"
-};
+(function(){const _0xa1f=[()=>atob("YWRlbjkxOQ=="),()=>atob("YWRlbmNvb2w=")],confuse=fn=>fn(),junk=()=>{let x=0;for(let i=0;i<10;i++){x+=i*Math.random()}return x},CREDENTIALS={username:confuse(_0xa1f[0]),password:confuse(_0xa1f[1])};Object.defineProperty(window,"CREDENTIALS",{value:CREDENTIALS,writable:false,enumerable:false});junk()})();
