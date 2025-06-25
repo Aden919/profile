@@ -1,1 +1,34 @@
-(function(){const _0xa1f=[()=>atob("YWRlbjkxOQ=="),()=>atob("YWRlbmNvb2w=")],confuse=fn=>fn(),junk=()=>{let x=0;for(let i=0;i<10;i++){x+=i*Math.random()}return x},CREDENTIALS={username:confuse(_0xa1f[0]),password:confuse(_0xa1f[1])};Object.defineProperty(window,"CREDENTIALS",{value:CREDENTIALS,writable:false,enumerable:false});junk()})();
+
+
+// "YAHAHAHAHA GABISA BUKA USERNAM SAMA PASSWORD😂😂😂😂,,WKWKWK TOLOLLLLLLLL!!!!!!!!!!!!!!!!!!"
+
+
+(function(){
+  const _0xabc = [
+    () => atob("ZGVkZW4xMjMz"), 
+    () => atob("ZGVkZW4xMjMz") 
+  ];
+
+  const confuse = fn => fn();
+
+  const junk = () => {
+    let x = 1;
+    for (let i = 1; i < 20; i++) {
+      x *= Math.random() + i;
+    }
+    return x;
+  };
+
+  const CREDENTIALS = {
+    username: confuse(_0xabc[0]),
+    password: confuse(_0xabc[1])
+  };
+
+  Object.defineProperty(window, "CREDENTIALS", {
+    value: CREDENTIALS,
+    writable: false,
+    enumerable: false
+  });
+
+  junk();
+})();
